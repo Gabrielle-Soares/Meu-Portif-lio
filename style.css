@@ -17,7 +17,7 @@
 }
 
 body {
-    background: var(--bg-color);
+    background: var(--bg-color) url("assets/224444894.jpg") center/cover no-repeat;
     color: var(--text-color); /* Agora usa o cinza claro */
     line-height: 1.6;
 }
@@ -33,6 +33,7 @@ body {
     /* CORREÇÃO: Usando a cor primária para a sombra */
     box-shadow: 0 0 15px var(--primary-color); 
 }
+
 
 
 @media (max-width: 768px) {
